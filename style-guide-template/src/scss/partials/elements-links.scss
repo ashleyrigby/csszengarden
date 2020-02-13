@@ -1,0 +1,32 @@
+.cd-elements a{
+    color: black;
+}
+
+.link-normal {
+    color: $color-5;
+    text-decoration: underline;
+}
+
+.link-visited {
+    color: $color-1;
+}
+
+.link-active {
+    color: $color-2;
+}
+
+.link-hover{
+    color: $color-3;
+    text-decoration: underline;
+}
+
+.footer-validate {
+    color: $color-5;
+    text-decoration: underline;
+}
+
+.resources-li {
+    color: $color-5;
+    text-decoration: underline;
+}
+
