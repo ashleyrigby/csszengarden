@@ -1,0 +1,41 @@
+.extra3 {
+    width: 300px;
+    height: 300px;
+    background-color:#ffec74;
+    border: solid #ffec74;
+    border-radius:150px;
+    position: fixed;
+    top: -45px;
+    right: -45px;
+    box-shadow: -25px -37.5px darken($color: #ffec74, $amount: 27) inset;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: darken($color: #ffec74, $amount: 25);
+        box-shadow: -200px 70px darken($color: #ffec74, $amount: 25),
+        -35px 150px darken($color: #ffec74, $amount: 25)
+        ;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        top: 35+20px;
+        right: 200-50px;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: darken($color: #ffec74, $amount: 25);
+        box-shadow: 70px -27px darken($color: #ffec74, $amount: 25),
+        -110px 20px darken($color: #ffec74, $amount: 25),
+        -25px 65px darken($color: #ffec74, $amount: 25),
+        90px 90px darken($color: #ffec74, $amount: 25),
+        -15px 150px darken($color: #ffec74, $amount: 25),
+        -70px 190px darken($color: #ffec74, $amount: 25)
+        ;
+    }
+}

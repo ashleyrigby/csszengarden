@@ -1,0 +1,68 @@
+//Skyline from external image
+/* .extra2 {
+	background: url(https://jackrugile.com/lab/fireworks-v2/images/skyline.png) repeat-x 50% 0;
+	bottom: 0;
+	height: 135px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+    z-index: 1;	
+} */
+
+//skyline with clip-path
+/* .extra2 {
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  clip-path: polygon(0% 82%, 7% 82%, 7% 91%, 13% 92%, 13% 74%, 19% 75%, 19% 92%, 24% 92%, 24% 97%, 35% 97%, 34% 86%, 41% 86%, 41% 91%, 45% 91%, 45% 75%, 48% 75%, 48% 86%, 52% 86%, 52% 70%, 55% 70%, 55% 92%, 60% 91%, 60% 97%, 64% 97%, 64% 86%, 67% 80%, 71% 86%, 72% 97%, 76% 97%, 76% 86%, 83% 86%, 83% 92%, 86% 92%, 86% 80%, 93% 80%, 93% 92%, 100% 91%, 100% 100%, 0% 100%);
+}  */
+
+.extra2 {
+  width: 100%;
+  height: 39%;
+  background: black;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  clip-path: polygon(0% 100%, 0% 75%, 2% 75%, 2% 40%, 7% 40%, 7% 46%, 8% 52%, 12% 52%, 12% 78%, 22% 78%, 24% 55%, 26% 46%, 26% 30%, 29% 25%, 32% 31%, 32% 36%, 34% 36%, 35% 46%, 39% 47%, 39% 19%, 43% 19%, 43% 58%, 48% 58%, 48% 42%, 52% 36%, 52% 41%, 55% 37%, 55% 41%, 59% 36%, 59% 51%, 62% 50%, 62% 30%, 65% 25%, 68% 30%, 69% 60%, 72% 60%, 73% 42%, 77% 42%, 77% 49%, 81% 50%, 81% 55%, 86% 60%, 86% 75%, 90% 75%, 90% 53%, 97% 53%, 97% 68%, 100% 68%, 100% 100%);
+}
+
+//skyline with box-shadows
+/* .extra2 {
+    background-color: black;
+    height: 400px;
+    width: 100px;
+    position: fixed;
+    bottom: -300px;
+    left: 0px;
+    box-shadow: 50px -100px black,
+      100px -135px 0 -10px black,
+      125px -75px black,
+      200px -35px black,
+      250px -110px 0 -20px black,
+      300px 0px black,
+      365px -50px black,
+      400px -140px 0 -30px black,
+      450px -85px black,
+      500px -150px 0 -20px black,
+      550px -30px black,
+      600px 0px black,
+      700px -50px black,
+      725px -100px 0 -10px black,
+      775px 25px black,
+      800px -25px black,
+      850px -70px 0 -20px black,
+      900px 10px black,
+      950px -125px black,
+      1020px -100px 0 -30px black,
+      1050px -50px black,
+      1100px -130px 0 -20px black,
+      1175px -25px black,
+      1225px -75px 0 -10px black,
+      1275px -100px black,
+      1325px -75px black,
+      1400px -50px black;   
+  } */

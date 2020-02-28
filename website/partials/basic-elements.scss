@@ -1,0 +1,39 @@
+/* basic elements */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Sigmar+One&display=swap');
+
+
+
+html {
+	margin: 0;
+	padding: 0;
+	//background-color: black;
+	}
+
+body { 
+	line-height: 1.4;
+	margin: 0; 
+	padding: 0;
+    //background-color: #16052a;
+	}
+
+
+p { 
+	font-family: 'Lato', arial ;
+	margin-top: 0; 
+	text-align: justify;
+	color: white;
+	}
+
+h1{
+	font-family: 'Sigmar One', arial;
+	font-size: 4em;
+	color: #15F9FC;
+}
+
+h2, h3 { 
+	font-family: 'Sigmar One', arial;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #15F9FC;
+	}
