@@ -1,41 +1,41 @@
 .extra3 {
-    width: 300px;
-    height: 300px;
+    width: 24vw;
+    height: 24vw;
     background-color:#ffec74;
     border: solid #ffec74;
-    border-radius:150px;
+    border-radius: 12vw;
     position: fixed;
     top: -45px;
     right: -45px;
-    box-shadow: -25px -37.5px darken($color: #ffec74, $amount: 27) inset;
+    box-shadow: -2vw -3vw darken($color: #ffec74, $amount: 27) inset;
     &:after {
         content: "";
         position: absolute;
-        top: 50px;
-        right: 20px;
-        width: 60px;
-        height: 60px;
-        border-radius: 30px;
+        top: 5vw;
+        right: 2.25vw;
+        width: 4.75vw;
+        height: 4.75vw;
+        border-radius: 2.5vw;
         background-color: darken($color: #ffec74, $amount: 25);
-        box-shadow: -200px 70px darken($color: #ffec74, $amount: 25),
-        -35px 150px darken($color: #ffec74, $amount: 25)
+        box-shadow: -15vw 5.5vw darken($color: #ffec74, $amount: 25),
+        -3vw 11vw darken($color: #ffec74, $amount: 25)
         ;
     }
     &:before {
         content: "";
         position: absolute;
-        top: 35+20px;
-        right: 200-50px;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
+        top: 4.5vw;
+        right: 11.5vw;
+        width: 1.5vw;
+        height: 1.5vw;
+        border-radius: 0.75vw;
         background-color: darken($color: #ffec74, $amount: 25);
-        box-shadow: 70px -27px darken($color: #ffec74, $amount: 25),
-        -110px 20px darken($color: #ffec74, $amount: 25),
-        -25px 65px darken($color: #ffec74, $amount: 25),
-        90px 90px darken($color: #ffec74, $amount: 25),
-        -15px 150px darken($color: #ffec74, $amount: 25),
-        -70px 190px darken($color: #ffec74, $amount: 25)
+        box-shadow: 5vw -2vw darken($color: #ffec74, $amount: 25),
+        -9vw 2vw darken($color: #ffec74, $amount: 25),
+        -2.5vw 5vw darken($color: #ffec74, $amount: 25),
+        7vw 7.5vw darken($color: #ffec74, $amount: 25),
+        -1vw 11vw darken($color: #ffec74, $amount: 25),
+        -6vw 15vw darken($color: #ffec74, $amount: 25)
         ;
     }
 }
